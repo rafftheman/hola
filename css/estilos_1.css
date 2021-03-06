@@ -1,0 +1,122 @@
+body{
+    background-image: url('../images/donb5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.navbar{
+    background: rgb(0,0,0) !important;
+    border: black;
+}
+
+a:link, a:visited {
+    color: white !important;
+}
+a:hover, a:active {
+    color: #505154 !important;   
+}
+
+#yu{
+    background: rgb(0,0,0, .0) !important;
+    color: white;
+    animation-name: animacion1;
+    animation-duration: .8s;
+    animation-delay: 0s;
+    position: relative;
+    transition: all 1s;
+}
+
+.panel{
+    background: rgb(0,0,0,.0) !important;
+    box-shadow: 0 5px 15px rgb(0,0,0,.0) !important;
+    border: black;
+    color: white;
+}
+
+.panel-heading{
+    background: rgb(0,0,0,.0) !important;
+    box-shadow: 0 5px 15px rgb(0,0,0,.0) !important;
+    border: black;
+    color: white !important;
+}
+
+/*Recuadro de la barra de navegacion*/
+#sup:link, #sup:visited {
+    background-color: black !important;
+    color: white !important;
+}
+#sup:hover, #sup:active {
+    background-color: #dedede !important;
+    color: gray !important;   
+}
+
+#sip:link, #sip:visited {
+    background: #d1cfcf !important;
+    color: black !important;
+}
+#sip:hover, #sip:active {
+    background: #dedede !important;
+    color: gray !important;   
+}
+
+#sop:link, #sop:visited {
+    background-color: black !important;
+    color: white !important;
+}
+#sop:hover, #sop:active {
+    background: #dedede !important;
+    color: gray !important;   
+}
+
+
+.form-control {
+    margin-left: auto;
+    margin-right: auto;   
+    width: 200px;
+}
+
+.alert-danger{
+    margin-left: auto;
+    margin-right: auto;   
+    width: 200px;
+    font-size: .84em;
+}
+
+/*animacion 1*/
+@keyframes animacion1{
+    0%{top:100px; opacity:0.0;}
+    100%{top:0px; opacity:1.0;}
+
+}
+
+
+@keyframes animacion2{
+    0%{opacity:0.0;}
+    100%{opacity:1.0;}
+}
+/*
+@keyframes animacion3{
+    0%{}
+    25%{}
+    50%{}
+    75%{}
+    100%{}
+}
+
+@keyframes animacion4{
+    0%{}
+    25%{}
+    50%{}
+    75%{}
+    100%{}
+}*/
+.navbar-brand{
+    position: relative;
+    top: -8.0px;
+}
+
+h1{
+ font-size: 6em;
+ color: white;
+}

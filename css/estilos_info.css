@@ -1,0 +1,116 @@
+body{
+    background-image: url('../images/jow3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.navbar{
+    background: rgb(0, 0, 0) !important;
+    border: black;
+    animation-name: animacion2;
+    animation-duration: .8s;
+    animation-delay: 0s;
+    position: relative;
+    transition: all 1s;
+}
+
+a:link, a:visited {
+    color: white !important;
+}
+a:hover, a:active {
+    color: #505154 !important;   
+}
+
+#henflis{
+    background: rgb(0, 0, 0, .0) !important;
+    background-size: cover;
+    transition: all 1s;
+    color: white;
+    height: 20em;
+    border: black;
+}
+
+.jumbotron{
+    background-color: white;
+}
+
+
+/*Recuadro de la barra de navegacion*/
+#sup:link, #sup:visited {
+    background-color: black !important;
+    color: white !important;
+}
+#sup:hover, #sup:active {
+    background-color: #dedede !important;
+    color: gray !important;   
+}
+
+#sop:link, #sop:visited {
+    background: #d1cfcf !important;
+    color: black !important;
+}
+#sop:hover, #sop:active {
+    background: #dedede !important;
+    color: gray !important;   
+}
+
+#sip:link, #sip:visited {
+    background-color: black !important;
+    color: white !important;
+}
+#sip:hover, #sip:active {
+    background: #dedede !important;
+    color: gray !important;   
+}
+
+
+
+/*animacion 1*/
+
+/*
+@keyframes animacion3{
+    0%{}
+    25%{}
+    50%{}
+    75%{}
+    100%{}
+}
+
+@keyframes animacion4{
+    0%{}
+    25%{}
+    50%{}
+    75%{}
+    100%{}
+}*/
+.navbar-brand{
+    position: relative;
+    top: -8.0px;
+}
+
+h1{
+ font-size: 5.5em;
+ 
+ 
+}
+
+/*.text-border{
+    -webkit-text-stroke: .1px;
+    -webkit-text-stroke-color: black;
+}
+#no{
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: black;
+    border-bottom-style: hidden;
+    border-bottom-width: 1px;
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-left-color: black;
+    border-left-style: hidden;
+    border-left-width: 1px;
+}*/
